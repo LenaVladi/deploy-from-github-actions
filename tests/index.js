@@ -1,5 +1,5 @@
-const assert = require('assert');
-const pow = require('../src/scripts/pow.js');
+const assert = require("assert");
+const pow = require("../src/scripts/pow.js");
 
 describe("pow", function () {
 
@@ -39,9 +39,4 @@ describe("pow", function () {
         }
 
     });
-
-    it("ноль в нулевой степени даёт NaN", function () {
-        assert(isNaN(pow(0, 0)), "0 в степени 0 не NaN");
-    });
-
 });
